@@ -13,7 +13,8 @@
 + [About](#description)
 + [Getting Started](#getting_started)
 + [Limitations](#limitations)
-+ [Future Scope](#future_scope)
++ [Built With](#built_with)
++ [Contact](#contact)
 
 ## About <a name="description"></a>
 + In today’s world, how do you know if you are buying a genuine product?
@@ -39,6 +40,8 @@
 + Transparent nature of the Blockchain helps avoid [parallel trade](https://en.wikipedia.org/wiki/Parallel_import).
 + Using Blockchain, authenticity can be checked and ownership of a product can be transferred _decades_ from now; even if the product is discontinued.
 
+## Getting Started <a name="getting_started"></a>
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Installing
 A step by step series of examples that tell you how to get a development env running
@@ -75,7 +78,7 @@ Website:
 + We currently depend on the company to register with our services, without which, we cannot provide information about a brand to the user.
 
 <!-- CONTACT -->
-## Contact
+## Contact <a name="contact"></a>
 
 Krishna Ujjwal - [@linkedin_ujjwalkrishn48](https://www.linkedin.com/in/ujjwalkrishna48/) - ujjwalkrishna48@gmail.com
 

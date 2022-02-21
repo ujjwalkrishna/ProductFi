@@ -1,0 +1,71 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="css/style1.css" rel="stylesheet" type="text/css">
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+
+    <link rel="icon" href="Favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <title>AuthentiFi</title>
+    <style>
+            h2 {
+              text-align:center;
+            }
+
+            p {
+              text-align:center;
+            }
+    </style>
+
+</head>
+<body>
+
+    <div  class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="card">
+                        <div style="background-color: #1fa667;text-align:center;color: #ffffff"  class="card-header">Generated QR Code</div>
+                        <div class="card-body">
+                                <div class="container">
+                                <div class="row">
+                                    <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+                                        <div class="well details">
+                                            <div class="col-sm-12">
+                                                <div class="col-xs-12 col-sm-8">
+                                                    <h2 style="text-decoration:underline;"justify-content-center id="brand"><%= brand %></h2>
+                                                    <p justify-content-center id="code"><strong>Product Code: </strong><%= code %></p>
+                                                    <p justify-content-center id="model"><strong>Model: </strong><%= model %></p>
+                                                    <p justify-content-center id="description"><strong>Description: </strong><%= description %></p>
+                                                    <p id="manufacturerName"><strong>Manufacturer Name: </strong><%= manufacturerName %></p>
+                                                    <p id="manufacturerLocation"><strong>Manufacturer Location: </strong><%= manufacturerLocation %></p>
+                                                </div>
+                                                <div justify-content-center class="col-xs-12 col-sm-4 col-lg-1 text-center" id="qrcode" style="width:200px; height:200px; margin-top:15px;">
+                                                    <img src="<%= base64QRCode %>" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

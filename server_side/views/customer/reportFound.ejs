@@ -1,0 +1,63 @@
+    <main class="myform">
+        <div class="cotainer">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div style="background-color: #1fa667;color: #ffffff" class="card-header">Report Found</div>
+                        <div class="card-body">
+                            <form name="myform" onsubmit="return validform()" action="/reportFound" method="POST">
+
+                                <div class="form-group row">
+                                    <label for="brand" class="col-md-4 col-form-label text-md-right">Product Id</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="code" class="form-control" name="code">
+                                    </div>
+                                    
+                                </div>
+                                <p>OR</p>
+                                <div class="form-group row">
+                                    <label for="brand" class="col-md-4 col-form-label text-md-right">Scan QR
+                                        Code</label>
+                                    <div class="col-md-6">
+                                        <div style="width: 300px" id="reader"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 offset-md-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        Report
+                                    </button>
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+
+    <script>
+        function onScanSuccess(decodedText, decodedResult) {
+            // handle the scanned code as you like, for example:
+            $('#code').val(decodedText);
+            console.log(`Code matched = ${decodedText}`, decodedResult);
+        }
+
+        function onScanFailure(error) {
+            // handle scan failure, usually better to ignore and keep scanning.
+            // for example:
+            console.warn(`Code scan error = ${error}`);
+        }
+
+        let html5QrcodeScanner = new Html5QrcodeScanner(
+            "reader",
+            { fps: 10, qrbox: { width: 50, height: 50 } },
+            /* verbose= */ false);
+
+        html5QrcodeScanner.render(onScanSuccess, onScanFailure);
+
+    </script>

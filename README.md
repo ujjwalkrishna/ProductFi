@@ -1,6 +1,7 @@
 <div align="center">
 
-  ![ProductFi](https://bit.ly/3BzBrS5)
+  <img src="server_side/public/images/productFi Image.jpg">
+
 
 </div>
 

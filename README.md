@@ -12,8 +12,8 @@
 # Table of Contents
 + [About](#description)
 + [Getting Started](#getting_started)
-+ [Limitations](#limitations)
 + [Built With](#built_with)
++ [Limitations](#limitations)
 + [Contact](#contact)
 
 ## About <a name="description"></a>
@@ -27,7 +27,7 @@
 ![Data Flow](https://imgur.com/VGIPtDU.png)
 
 ### Features
-+ Manufacturers can add the product on this platform and QR code of product will be genrated which he can attached with product item.
++ Manufacturers can add the product on this platform and QR code of product will be genrated which they can attach with product item.
 + Retailers can scan the product and verify its authenticity by scanning the QR code on this platfrom and then buy the product from distributor. Ownership will be transferred to retailer once he buy it.
 + Customer can scan the product and get its whole details from manufacturing to delivery and then can buy the product. Ownership will be transferred to customer.
 + If the product is stolen then customer can report it on our plaform and then status of product will be marked as stolen and no one will buy it.

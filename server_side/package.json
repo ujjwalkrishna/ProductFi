@@ -1,5 +1,5 @@
 {
-  "name": "authentifi",
+  "name": "productfi",
   "version": "1.0.0",
   "description": "product ownership management system",
   "main": "server.js",
@@ -9,24 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kylelobo/AuthentiFi.git"
+    "url": "git+https://github.com/ujjwalkrishna/ProductFi.git"
   },
   "keywords": [
     "blockchain",
     "ethereum",
-    "xdc",
     "solidity",
     "truffle",
     "ganache",
-    "nodejs",
-    "android"
+    "nodejs"
   ],
-  "author": "",
+  "author": "Krishna Ujjwal",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/kylelobo/AuthentiFi/issues"
+    "url": "https://github.com/ujjwalkrishna/ProductFi/issues"
   },
-  "homepage": "https://github.com/kylelobo/AuthentiFi#readme",
+  "homepage": "https://github.com/ujjwalkrishna/ProductFi#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "crypto": "^1.0.1",
